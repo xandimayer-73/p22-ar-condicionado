@@ -1,0 +1,6 @@
+{
+  "name": "P22 Ar Condicionado",
+  "description": "Serviços especializados de instalação, limpeza e manutenção de ar condicionado em São Paulo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

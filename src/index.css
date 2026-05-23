@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Quicksand", "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", "Quicksand", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-sans);
+  }
+}
+
+/* Custom air breeze flowing animation keys */
+@keyframes breeze-flow {
+  0% {
+    transform: translateY(0) translateX(0) scale(1);
+    opacity: 0;
+  }
+  15% {
+    opacity: 0.6;
+  }
+  85% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateY(-80px) translateX(120px) scale(0.85);
+    opacity: 0;
+  }
+}
+
+@keyframes breeze-flow-warm {
+  0% {
+    transform: translateY(0) translateX(0) scale(1);
+    opacity: 0;
+  }
+  15% {
+    opacity: 0.5;
+  }
+  85% {
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(60px) translateX(-100px) scale(1.1);
+    opacity: 0;
+  }
+}
+
+.animate-breeze-cool-1 {
+  animation: breeze-flow 4s infinite ease-in-out;
+}
+
+.animate-breeze-cool-2 {
+  animation: breeze-flow 6s infinite ease-in-out 1.5s;
+}
+
+.animate-breeze-cool-3 {
+  animation: breeze-flow 5s infinite ease-in-out 3s;
+}
+
+.animate-breeze-warm-1 {
+  animation: breeze-flow-warm 4.5s infinite ease-in-out;
+}
+
+.animate-breeze-warm-2 {
+  animation: breeze-flow-warm 6.5s infinite ease-in-out 1s;
+}
+
