@@ -87,11 +87,11 @@ export default function Header({ onNavClick, activeSection }: HeaderProps) {
         {/* Action Button & Contact */}
         <div className="hidden lg:flex items-center gap-6">
           <a
-            href="tel:+551134567890"
+            href="tel:+5547988397829"
             className="flex items-center gap-2 text-neutral-300 hover:text-blue-300 text-sm font-medium transition-colors font-mono"
           >
             <PhoneCall className="w-4 h-4 text-blue-400" />
-            (11) 3456-7890
+            (47) 988397829
           </a>
           <button
             onClick={() => handleItemClick('agendamento')}
@@ -105,7 +105,7 @@ export default function Header({ onNavClick, activeSection }: HeaderProps) {
         {/* Mobile menu trigger */}
         <div className="md:hidden flex items-center gap-4">
           <a
-            href="tel:+551134567890"
+            href="tel:+5547988397829"
             className="p-2 text-neutral-300 hover:text-blue-400"
             aria-label="Ligar"
           >
