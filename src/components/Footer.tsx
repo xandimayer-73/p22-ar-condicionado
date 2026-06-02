@@ -68,15 +68,15 @@ export default function Footer({ onNavClick }: FooterProps) {
           <div className="space-y-3.5 text-neutral-300 text-xs sm:text-sm font-medium">
             <div className="flex items-start gap-3">
               <MapPin className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" />
-              <span>Rua XV de Novembro, 1500 - Centro, Blumenau - SC, 89010-003</span>
+              <span>Rua Maria Nunes da Silva, 473 - São Vicente, Itajaí - SC, 88312-250</span>
             </div>
-            <a href="tel:+5547988397829" className="flex items-center gap-3 hover:text-blue-300 transition-colors">
+            <a href="tel:+5547996808537" className="flex items-center gap-3 hover:text-blue-300 transition-colors">
               <Phone className="w-5 h-5 text-cyan-400 flex-shrink-0" />
-              <span>(47) 988397829</span>
+              <span>(47) 99680.8537</span>
             </a>
-            <a href="mailto:info@meusite.com" className="flex items-center gap-3 hover:text-blue-300 transition-colors">
+            <a href="mailto:patric.pivetta@gmail.com" className="flex items-center gap-3 hover:text-blue-300 transition-colors">
               <Mail className="w-5 h-5 text-indigo-400 flex-shrink-0" />
-              <span>info@meusite.com</span>
+              <span>patric.pivetta@gmail.com</span>
             </a>
           </div>
         </div>
@@ -188,7 +188,7 @@ export default function Footer({ onNavClick }: FooterProps) {
       <div className="fixed bottom-6 left-6 z-40 max-w-[280px]">
         <div className="bg-neutral-950 border border-emerald-950/60 shadow-xl shadow-emerald-950/20 p-3 rounded-2xl flex items-center gap-3 animate-bounce" style={{ animationDuration: '3.5s' }}>
           <a
-            href="https://wa.me/5547988397829" 
+            href="https://wa.me/5547996808537" 
             target="_blank" 
             rel="noreferrer noopener"
             className="w-10 h-10 bg-emerald-600 hover:bg-emerald-500 text-white rounded-full flex items-center justify-center flex-shrink-0 transition-transform hover:scale-105 active:scale-95"
@@ -199,7 +199,7 @@ export default function Footer({ onNavClick }: FooterProps) {
           <div className="text-left leading-tight">
             <span className="text-[10px] uppercase font-mono font-bold tracking-wider text-emerald-400 block mb-0.5">Visita Urgente</span>
             <a 
-              href="https://wa.me/5547988397829" 
+              href="https://wa.me/5547996808537" 
               target="_blank" 
               rel="noreferrer noopener" 
               className="text-xs font-bold text-white hover:underline block"
