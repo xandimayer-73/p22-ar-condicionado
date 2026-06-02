@@ -68,7 +68,7 @@ export default function Footer({ onNavClick }: FooterProps) {
           <div className="space-y-3.5 text-neutral-300 text-xs sm:text-sm font-medium">
             <div className="flex items-start gap-3">
               <MapPin className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" />
-              <span>Rua Prates, 194 - Bom Retiro, São Paulo - SP, 01121-000</span>
+              <span>Rua XV de Novembro, 1500 - Centro, Blumenau - SC, 89010-003</span>
             </div>
             <a href="tel:+5547988397829" className="flex items-center gap-3 hover:text-blue-300 transition-colors">
               <Phone className="w-5 h-5 text-cyan-400 flex-shrink-0" />

@@ -70,7 +70,7 @@ export default function Hero({ onNavigate }: HeroProps) {
               <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
             </span>
             <span className="text-xs font-mono font-medium text-neutral-300 uppercase tracking-widest">
-              Atendimento em São Paulo & ABC
+              Atendimento no Vale do Itajaí e Litoral Catarinense
             </span>
           </div>
 

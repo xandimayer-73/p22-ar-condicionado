@@ -98,7 +98,7 @@ export const faqsData = [
     answer: 'Nela medimos a pressão do gás refrigerante no compressor. Se houver falta de gás por conta de alguma microfissura, o rendimento cai e o consumo elétrico dispara. O ajuste preventivo evita que o compressor queime, o que geraria um custo muito maior.'
   },
   {
-    question: 'Vocês atendem quais regiões de São Paulo?',
-    answer: 'Atendemos toda a capital de São Paulo, ABC Paulista e principais regiões metropolitanas. Entre em contato para confirmar a disponibilidade para o seu CEP.'
+    question: 'Vocês atendem quais regiões?',
+    answer: 'Atendemos todo o Vale do Itajaí e Litoral Catarinense. Entre em contato para confirmar a disponibilidade para a sua cidade ou bairro.'
   }
 ];

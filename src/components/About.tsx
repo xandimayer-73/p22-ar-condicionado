@@ -47,7 +47,7 @@ export default function About() {
                 Oferecemos serviços altamente qualificados por meio de técnicos certificados e formados sob as principais marcas parceiras como Daikin, LG Inverter, Fujitsu, Carrier, Samsung e Elgin. Mais do que ajustar a temperatura, nós focamos na qualidade do ar que você e sua equipe respiram diariamente.
               </p>
               <p>
-                Nossa missão é alinhar eficiência térmica e redução de consumo elétrico de forma transparente. Por isso, oferecemos estimativas sinceras de orçamentos e damos garantia total em cada visita executada em São Paulo e região do ABC.
+                Nossa missão é alinhar eficiência térmica e redução de consumo elétrico de forma transparente. Por isso, oferecemos estimativas sinceras de orçamentos e damos garantia total em cada visita executada no Vale do Itajaí e Litoral Catarinense.
               </p>
             </div>
 
